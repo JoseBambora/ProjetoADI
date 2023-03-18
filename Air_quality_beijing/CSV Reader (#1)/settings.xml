@@ -26,14 +26,14 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228"/>
+                    <entry key="path" type="xstring" value="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
                     <entry key="EnabledStatus" type="xboolean" value="true"/>
                 </config>
                 <config key="filter_mode">
-                    <entry key="filter_mode" type="xstring" value="FILES_IN_FOLDERS"/>
+                    <entry key="filter_mode" type="xstring" value="FILE"/>
                     <entry key="include_subfolders" type="xboolean" value="false"/>
                     <config key="filter_options">
                         <entry key="filter_files_extension" type="xboolean" value="false"/>
@@ -71,393 +71,6 @@
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
                 <config key="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv">
-                    <entry key="num_columns" type="xint" value="18"/>
-                    <config key="0">
-                        <entry key="name" type="xstring" value="No"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="1">
-                        <entry key="name" type="xstring" value="year"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="2">
-                        <entry key="name" type="xstring" value="month"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="3">
-                        <entry key="name" type="xstring" value="day"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="4">
-                        <entry key="name" type="xstring" value="hour"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="5">
-                        <entry key="name" type="xstring" value="PM2.5"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="6">
-                        <entry key="name" type="xstring" value="PM10"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="7">
-                        <entry key="name" type="xstring" value="SO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="8">
-                        <entry key="name" type="xstring" value="NO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="9">
-                        <entry key="name" type="xstring" value="CO"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="10">
-                        <entry key="name" type="xstring" value="O3"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="11">
-                        <entry key="name" type="xstring" value="TEMP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="12">
-                        <entry key="name" type="xstring" value="PRES"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="13">
-                        <entry key="name" type="xstring" value="DEWP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="14">
-                        <entry key="name" type="xstring" value="RAIN"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="15">
-                        <entry key="name" type="xstring" value="wd"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="16">
-                        <entry key="name" type="xstring" value="WSPM"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="17">
-                        <entry key="name" type="xstring" value="station"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                </config>
-                <config key="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Dingling_20130301-20170228.csv">
-                    <entry key="num_columns" type="xint" value="18"/>
-                    <config key="0">
-                        <entry key="name" type="xstring" value="No"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="1">
-                        <entry key="name" type="xstring" value="year"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="2">
-                        <entry key="name" type="xstring" value="month"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="3">
-                        <entry key="name" type="xstring" value="day"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="4">
-                        <entry key="name" type="xstring" value="hour"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="5">
-                        <entry key="name" type="xstring" value="PM2.5"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="6">
-                        <entry key="name" type="xstring" value="PM10"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="7">
-                        <entry key="name" type="xstring" value="SO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="8">
-                        <entry key="name" type="xstring" value="NO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="9">
-                        <entry key="name" type="xstring" value="CO"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="10">
-                        <entry key="name" type="xstring" value="O3"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="11">
-                        <entry key="name" type="xstring" value="TEMP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="12">
-                        <entry key="name" type="xstring" value="PRES"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="13">
-                        <entry key="name" type="xstring" value="DEWP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="14">
-                        <entry key="name" type="xstring" value="RAIN"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="15">
-                        <entry key="name" type="xstring" value="wd"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="16">
-                        <entry key="name" type="xstring" value="WSPM"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="17">
-                        <entry key="name" type="xstring" value="station"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                </config>
-                <config key="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Dongsi_20130301-20170228.csv">
-                    <entry key="num_columns" type="xint" value="18"/>
-                    <config key="0">
-                        <entry key="name" type="xstring" value="No"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="1">
-                        <entry key="name" type="xstring" value="year"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="2">
-                        <entry key="name" type="xstring" value="month"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="3">
-                        <entry key="name" type="xstring" value="day"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="4">
-                        <entry key="name" type="xstring" value="hour"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.Integer"/>
-                        </config>
-                    </config>
-                    <config key="5">
-                        <entry key="name" type="xstring" value="PM2.5"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="6">
-                        <entry key="name" type="xstring" value="PM10"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="7">
-                        <entry key="name" type="xstring" value="SO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="8">
-                        <entry key="name" type="xstring" value="NO2"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="9">
-                        <entry key="name" type="xstring" value="CO"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="10">
-                        <entry key="name" type="xstring" value="O3"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="11">
-                        <entry key="name" type="xstring" value="TEMP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="12">
-                        <entry key="name" type="xstring" value="PRES"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="13">
-                        <entry key="name" type="xstring" value="DEWP"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="14">
-                        <entry key="name" type="xstring" value="RAIN"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="15">
-                        <entry key="name" type="xstring" value="wd"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="16">
-                        <entry key="name" type="xstring" value="WSPM"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                    <config key="17">
-                        <entry key="name" type="xstring" value="station"/>
-                        <entry key="has_type" type="xboolean" value="true"/>
-                        <config key="type">
-                            <entry key="class" type="xstring" value="java.lang.String"/>
-                        </config>
-                    </config>
-                </config>
-                <config key="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Gucheng_20130301-20170228.csv">
                     <entry key="num_columns" type="xint" value="18"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="No"/>
@@ -1053,7 +666,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228"/>
+            <entry key="source_group_id" type="xstring" value="/home/josebambora/ADI/ProjetoADI/datasets/PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -1137,7 +750,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -1154,19 +767,16 @@
         <config key="Data Table"/>
     </config>
     <entry key="name" type="xstring" value="CSV Reader"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 140256, Cols: 18"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7b6beb97-ec04-4ce8-9d18-5843b40ece86"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
