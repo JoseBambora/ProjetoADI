@@ -7,22 +7,22 @@
     </config>
     <config key="model">
         <config key="TEMP">
-            <config key="-7.5_0">
-                <entry key="bin_name" type="xstring" value="-7.5"/>
+            <config key="-100.0-7.5_0">
+                <entry key="bin_name" type="xstring" value="-100.0-7.5"/>
                 <entry key="left_open" type="xboolean" value="true"/>
                 <entry key="left_value" type="xdouble" value="-Infinity"/>
                 <entry key="right_open" type="xboolean" value="true"/>
                 <entry key="right_value" type="xdouble" value="7.5"/>
             </config>
-            <config key="7.5-25_1">
-                <entry key="bin_name" type="xstring" value="7.5-25"/>
+            <config key="007.5-0025_1">
+                <entry key="bin_name" type="xstring" value="007.5-0025"/>
                 <entry key="left_open" type="xboolean" value="false"/>
                 <entry key="left_value" type="xdouble" value="7.5"/>
                 <entry key="right_open" type="xboolean" value="true"/>
                 <entry key="right_value" type="xdouble" value="25.0"/>
             </config>
-            <config key="25.0-_2">
-                <entry key="bin_name" type="xstring" value="25.0-"/>
+            <config key="25.0-100.0_2">
+                <entry key="bin_name" type="xstring" value="25.0-100.0"/>
                 <entry key="left_open" type="xboolean" value="false"/>
                 <entry key="left_value" type="xdouble" value="25.0"/>
                 <entry key="right_open" type="xboolean" value="true"/>
