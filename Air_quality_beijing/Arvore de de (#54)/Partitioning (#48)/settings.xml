@@ -11,7 +11,7 @@
         <entry key="fraction" type="xdouble" value="0.75"/>
         <entry key="count" type="xint" value="100"/>
         <entry key="random_seed" type="xstring" value="1679159569177"/>
-        <entry key="class_column" type="xstring" value="SO2_niveis"/>
+        <entry key="class_column" type="xstring" value="SO2"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="75 - 25"/>

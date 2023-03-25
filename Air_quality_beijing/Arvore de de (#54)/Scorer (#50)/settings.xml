@@ -37,8 +37,8 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="first" type="xstring" value="SO2_niveis"/>
-        <entry key="second" type="xstring" value="Prediction (SO2_niveis)"/>
+        <entry key="first" type="xstring" value="SO2"/>
+        <entry key="second" type="xstring" value="Prediction (SO2)"/>
         <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
         <entry key="sortingReversed" type="xboolean" value="false"/>
         <entry key="sortingStrategy" type="xint" value="0"/>
