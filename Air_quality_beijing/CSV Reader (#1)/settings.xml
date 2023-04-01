@@ -719,8 +719,8 @@
             <entry key="number_of_lines_to_skip" type="xlong" value="1"/>
             <entry key="skip_data_rows" type="xboolean" value="false"/>
             <entry key="number_of_rows_to_skip" type="xlong" value="1"/>
-            <entry key="limit_data_rows" type="xboolean" value="false"/>
-            <entry key="max_rows" type="xlong" value="50"/>
+            <entry key="limit_data_rows" type="xboolean" value="true"/>
+            <entry key="max_rows" type="xlong" value="15000"/>
         </config>
         <config key="encoding">
             <entry key="charset" type="xstring" value="UTF-8"/>

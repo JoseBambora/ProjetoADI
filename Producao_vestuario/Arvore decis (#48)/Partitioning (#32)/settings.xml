@@ -8,7 +8,7 @@
     <config key="model">
         <entry key="method" type="xstring" value="Relative"/>
         <entry key="samplingMethod" type="xstring" value="Stratified"/>
-        <entry key="fraction" type="xdouble" value="0.75"/>
+        <entry key="fraction" type="xdouble" value="0.8"/>
         <entry key="count" type="xint" value="100"/>
         <entry key="random_seed" type="xstring" value="1679156788006"/>
         <entry key="class_column" type="xstring" value="actual_productivity"/>
